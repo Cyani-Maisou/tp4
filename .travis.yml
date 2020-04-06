@@ -6,10 +6,10 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 jdk:
- - oraclejdk8
+ - openjdk-11-jdk
 
 script:
-- sudo apt-get update && sudo apt-get install oracle-java8-installer
+- sudo apt-get update && sudo apt-get install openjdk-11-jdk
 - java -version
 - mvn cobertura:cobertura
 
