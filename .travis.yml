@@ -6,10 +6,10 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 jdk:
- - openjdk-11-jdk
+ - openjdk11
 
 script:
-- sudo apt-get update && sudo apt-get install openjdk-11-jdk
+- sudo apt-get update && sudo apt-get install openjdk11
 - java -version
 - mvn cobertura:cobertura
 
