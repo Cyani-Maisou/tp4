@@ -16,11 +16,35 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>org.controlsfx</groupId>
-            <artifactId>controlsfx</artifactId>
-            <version>8.40.12</version>
-        </dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.openjfx/javafx -->
+	<dependency>
+    		<groupId>org.openjfx</groupId>
+    		<artifactId>javafx</artifactId>
+    		<version>11</version>
+    		<type>pom</type>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
+	<dependency>
+	    <groupId>org.openjfx</groupId>
+	    <artifactId>javafx-base</artifactId>
+	    <version>11</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
+	<dependency>
+	    <groupId>org.openjfx</groupId>
+	    <artifactId>javafx-fxml</artifactId>
+	    <version>11</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.controlsfx/controlsfx -->
+	<dependency>
+	    <groupId>org.controlsfx</groupId>
+	    <artifactId>controlsfx</artifactId>
+	    <version>11.0.1</version>
+	</dependency>
 
         <dependency>
             <groupId>junit</groupId>
@@ -36,19 +60,23 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.testfx</groupId>
-            <artifactId>testfx-core</artifactId>
-            <version>4.0.6-alpha</version>
-            <scope>test</scope>
-        </dependency>
+	<!-- https://mvnrepository.com/artifact/org.testfx/testfx-core -->
+	<dependency>
+	    <groupId>org.testfx</groupId>
+	    <artifactId>testfx-core</artifactId>
+	    <version>4.0.16-alpha</version>
+	    <scope>test</scope>
+	</dependency>
 
-        <dependency>
-            <groupId>org.testfx</groupId>
-            <artifactId>testfx-junit</artifactId>
-            <version>4.0.6-alpha</version>
-            <scope>test</scope>
-        </dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.testfx/testfx-junit -->
+	<dependency>
+	    <groupId>org.testfx</groupId>
+	    <artifactId>testfx-junit</artifactId>
+	    <version>4.0.15-alpha</version>
+	    <scope>test</scope>
+	</dependency>
+
 
         <dependency>
             <groupId>org.mockito</groupId>
@@ -93,6 +121,16 @@
         </resources>
 
         <plugins>
+
+		<!-- From https://github.com/openjfx/javafx-maven-plugin -->
+		<plugin>
+		    <groupId>org.openjfx</groupId>
+		    <artifactId>javafx-maven-plugin</artifactId>
+    		    <version>0.0.4</version>
+		    <configuration>
+		        <mainClass>App</mainClass>
+		    </configuration>
+		</plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
