@@ -9,7 +9,6 @@ jdk:
  - openjdk11
 
 script:
-- sudo apt-get update && sudo apt-get install openjdk11
 - java -version
 - mvn test
 
