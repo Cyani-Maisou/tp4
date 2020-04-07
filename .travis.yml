@@ -11,7 +11,7 @@ jdk:
 script:
 - sudo apt-get update && sudo apt-get install openjdk11
 - java -version
-- mvn cobertura:cobertura
+- mvn test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
