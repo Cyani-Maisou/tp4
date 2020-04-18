@@ -11,25 +11,18 @@ public class AppTest extends ApplicationTest {
 
     @Test
     public void should_initialize_button_with_text_click() {
-        // then:
         verifyThat("#buttonClick", hasText("Click !"));
     }
 
     @Test
     public void should_increment_nbClick_when_click_on_button() {
-        // when:
         clickOn("#buttonClick");
-
-        // then:
         verifyThat("#buttonClick", hasText("1"));
     }
 
     @Test
     public void should_increment_nbClick_when_click_on_button_again() {
-        // when:
         clickOn("#buttonClick").clickOn("#buttonClick");
-
-        // then:
         verifyThat("#buttonClick", hasText("2"));
     }
 
