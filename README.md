@@ -3,8 +3,9 @@
 ### IUT d’Aix-Marseille – Département Informatique Aix-en-Provence
 
 * **Cours:** [M2105](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf)
-* **Responsable:** [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
-* **Enseignants:** [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr), [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
+* **Responsable intérimaire:** [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
+* **Responsable habituel:** [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
+* **Enseignants actuels:** [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr), [Cyril Pain-Barre](mailto:cyril.pain-barre@univ-amu.fr)
 * **Besoin d'aide ?**
     * La page [Piazza de ce cours](https://piazza.com/univ-amu.fr/spring2017/m2105/home).
     * Consulter et/ou créér des [issues](https://github.com/IUTInfoAix-M2105/tp1/issues).
@@ -22,7 +23,7 @@ Ce TP continue l'exploration des mécanismes clefs de JavaFX 8.0 comme le FXML.
 
 La première chose que vous allez faire est de créer un fork d'un dépôt. Pour ce faire, rendez-vous sur le lien suivant : 
 
-[https://classroom.github.com/assignment-invitations/9db9e745a277f9d5cac3caf4a973564b](https://classroom.github.com/assignment-invitations/9db9e745a277f9d5cac3caf4a973564b) 
+[https://classroom.github.com/a/eQPtcoro](https://classroom.github.com/a/eQPtcoro) 
 
 Comme pour le TP1, GitHub va vous créer un dépôt contenant un fork du dépôt 'IUTInfoAix-m2105/tp4' et s'appellant 'IUTInfoAix-m2105/tp4-votreUsername'. 
 Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
