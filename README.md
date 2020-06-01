@@ -13,9 +13,9 @@
 
 ## TP 4 : FXML [![Build Status](https://travis-ci.com/IUTInfoAix-M2105/tp4.svg?token=zPXgu159amQhEb4ShTxW&branch=master)](https://travis-ci.com/IUTInfoAix-M2105/tp4)
 
-JavaFX 8.0 regroupe un ensemble d'API de Java 8 Standard Edition permettant le développement rapide d'applications graphiques modernes (aussi bien que des jeux 3D !). JavaFX 8.0 est tellement riche que sa 
-[documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) se trouve à part de celle de 
-[Java 8](https://docs.oracle.com/javase/8/docs/api/index.html?overview-summary.html) (qui inclut celle de ses prédécesseurs AWT et Swing), bien qu'il fasse partie intégrante de Java 8.
+JavaFX 11 regroupe un ensemble d'API permettant le développement rapide d'applications 
+graphiques modernes (aussi bien que des jeux 3D !). La [documentation](https://openjfx.io/javadoc/11/) de JavaFX 11 se trouve à part de celle de 
+[Java 11](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) (qui inclut celle de ses prédécesseurs AWT et Swing).
 
 Ce TP continue l'exploration des mécanismes clefs de JavaFX 8.0 comme le FXML.
 
@@ -179,7 +179,7 @@ lui communiquer la référence du modèle de l'application
          Scene scene = new Scene(root);
    ```
 #### Travail à réaliser
-- Aller dans le paquetage `exercice1` et ouvrir les trois fichier qui s'y trouvent.
+- Aller dans le paquetage `exercice1` et ouvrir les trois fichiers qui s'y trouvent.
 
 - Lancer la classe `CounterMain` pour observer et comprendre le fonctionnement du chargement d'une IHM décrite en FXML.
 
@@ -206,7 +206,7 @@ sera à la fois la racine (`setRoot()`) et le contrôleur (`setController()`) de
 Les propriétés exposées par le composant devront posséder des accesseurs publiques.
 
 #### Travail à réaliser
-- Aller dans le paquetage `exercice2` et ouvrir les trois fichier qui s'y trouvent.
+- Aller dans le paquetage `exercice2` et ouvrir les trois fichiers qui s'y trouvent.
 
 - Lancer la classe `LoginMain` pour observer et comprendre le fonctionnement du chargement d'une IHM décrite en FXML.
 
