@@ -15,7 +15,8 @@
 
     <center>
         <VBox alignment="CENTER" spacing="10">
-            <Label fx:id="counterLabel" text="${controller.counter}">
+            <!-- <Label fx:id="counterLabel" text="${controller.counter}"> -->
+            <Label fx:id="counterLabel">
                 <font>
                     <Font size="20"/>
                 </font>

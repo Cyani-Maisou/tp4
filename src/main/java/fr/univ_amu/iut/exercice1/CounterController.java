@@ -1,6 +1,7 @@
 package fr.univ_amu.iut.exercice1;
 
 
+import javafx.beans.binding.Binding;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
@@ -44,5 +45,6 @@ public class CounterController implements Initializable {
         System.out.println("Initializing SayHelloController...");
         System.out.println("Location = " + location);
         System.out.println("Resources = " + resources);
+        counterLabel.textProperty().bind(counter.asString());
     }
 }
